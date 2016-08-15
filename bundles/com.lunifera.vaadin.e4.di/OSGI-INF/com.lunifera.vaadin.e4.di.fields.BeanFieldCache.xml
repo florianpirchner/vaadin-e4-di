@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="com.lunifera.vaadin.e4.di.fields.BeanFieldCache">
+   <service>
+      <provide interface="com.lunifera.vaadin.e4.di.api.fields.IBeanFieldCache"/>
+   </service>
+   <implementation class="com.lunifera.vaadin.e4.di.fields.BeanFieldCache"/>
+</scr:component>

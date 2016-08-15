@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: com.lunifera.vaadin.e4.di.api
+Bundle-SymbolicName: com.lunifera.vaadin.e4.di.api
+Bundle-Version: 0.5.0.qualifier
+Bundle-Vendor: Lunifera GmbH, Florian Pirchner, Vienna
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: com.vaadin.server,
+ org.eclipse.e4.core.contexts,
+ org.eclipse.e4.core.di;bundle-version="1.6.0",
+ javax.inject,
+ org.eclipse.e4.ui.model.workbench,
+ org.apache.commons.lang,
+ org.eclipse.core.databinding;bundle-version="1.6.0",
+ org.eclipse.core.databinding.beans;bundle-version="1.3.100",
+ org.eclipse.core.databinding.observable;bundle-version="1.6.0",
+ org.eclipse.core.databinding.property;bundle-version="1.6.0"
+Export-Package: com.lunifera.vaadin.e4.di.api.fields;version="0.5.0"
+Import-Package: javax.validation;version="1.1.0.Final",
+ javax.validation.metadata;version="1.1.0.Final",
+ org.osgi.framework,
+ org.osgi.service.component.annotations;version="1.2.0",
+ org.slf4j;version="1.7.2"
+Bundle-ActivationPolicy: lazy
