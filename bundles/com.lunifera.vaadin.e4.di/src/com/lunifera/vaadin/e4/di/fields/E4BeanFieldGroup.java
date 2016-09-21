@@ -200,6 +200,7 @@ public class E4BeanFieldGroup<T> extends FieldGroup {
 	@Override
 	protected void configureField(Field<?> field) {
 		super.configureField(field);
+
 		// Add Bean validators if there are annotations
 		if (isBeanValidationImplementationAvailable() && !defaultValidators.containsKey(field)) {
 			BeanValidator validator = new BeanValidator(validatorFactory, beanType, getPropertyId(field).toString());
